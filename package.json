@@ -1,0 +1,58 @@
+{
+  "name": "elementor",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-inline": "^36.0.0",
+    "ckeditor": "^4.12.1",
+    "grapesjs": "^0.20.3",
+    "grapesjs-blocks-basic": "^1.0.1",
+    "grapesjs-blocks-flexbox": "^0.1.1",
+    "grapesjs-component-countdown": "^1.0.1",
+    "grapesjs-custom-code": "^1.0.1",
+    "grapesjs-lory-slider": "^0.1.5",
+    "grapesjs-mjml": "^1.0.4",
+    "grapesjs-navbar": "^1.0.1",
+    "grapesjs-parser-postcss": "^1.0.1",
+    "grapesjs-plugin-ckeditor": "^0.0.10",
+    "grapesjs-plugin-export": "^1.0.11",
+    "grapesjs-plugin-forms": "^2.0.5",
+    "grapesjs-preset-webpage": "^1.0.2",
+    "grapesjs-style-bg": "^2.0.1",
+    "grapesjs-style-filter": "^1.0.1",
+    "grapesjs-style-gradient": "^3.0.1",
+    "grapesjs-tabs": "^1.0.6",
+    "grapesjs-tooltip": "^0.1.7",
+    "grapesjs-tui-image-editor": "^1.0.1",
+    "grapesjs-typed": "^1.0.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
